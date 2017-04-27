@@ -1,0 +1,49 @@
+{
+  "name": "sort-by-value",
+  "description": "Sort an array of objects by property value.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/sort-by-value",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/sort-by-value",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/sort-by-value/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "by",
+    "generategenerator",
+    "sort",
+    "value"
+  ],
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "isobject": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.12",
+    "mocha": "^3.3.0"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
