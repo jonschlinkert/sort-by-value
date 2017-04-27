@@ -1,6 +1,6 @@
 {
   "name": "sort-by-value",
-  "description": "Sort an array of objects by property value.",
+  "description": "Re-order the objects in an array so that values of a specified property match the order of a provided array of values.",
   "version": "0.1.0",
   "homepage": "https://github.com/jonschlinkert/sort-by-value",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
